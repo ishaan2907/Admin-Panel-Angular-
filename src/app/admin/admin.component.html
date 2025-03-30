@@ -1,0 +1,25 @@
+<div class="card my-3 col-7 mx-auto border border-light-subtle border-4 rounded-4">
+    <div class="card-header mb-3">
+        Add Course
+    </div>
+    <div class="container ms-auto">
+        <form #courseList="ngForm" (ngSubmit)="addUser(courseList.value)">
+            <div class="my-3 col-10 mx-auto ">
+                <label for="exampleInput" class="form-label ">Course Title</label>
+                <input type="text" class="form-control" placeholder="Enter Course Title" name="title">
+            </div>
+            <div class="mb-3 col-10 mx-auto">
+                <label for="description" class="form-label">Course Description</label>
+                <textarea type="text" class="form-control" placeholder="Enter Course Description"
+                    name="description"></textarea>
+            </div>
+            <div class="mb-3 col-6 mx-auto">
+                <label for="formFile" class="form-label">Choose Image</label>
+                <input class="form-control" type="file" id="formFile">
+            </div>
+            <div class="text-center mb-3">
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+        </form>
+    </div>
+</div>

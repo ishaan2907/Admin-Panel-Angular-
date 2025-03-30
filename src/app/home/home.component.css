@@ -1,0 +1,15 @@
+.heading {
+    font-family: "Lora", serif;
+    color: white;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+
+}
+
+.image {
+    background-color: #0c0d0c;
+}
